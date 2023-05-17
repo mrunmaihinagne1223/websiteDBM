@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Order Form</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Order Form</h2>
+    <form action="Place.html" method="POST">
+      
+
+      <div class="form-group">
+        <label for="food">Food:</label>
+        <select class="form-control" id="food" name="food" required>
+          <option value="">Select a food item</option>
+          <option value="pizza">Pizza</option>
+          <option value="burger">Burger</option>
+          <option value="pasta">Pasta</option>
+          <option value="salad">Salad</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="foodImage">Margherita price : 189</label><br>
+        <img src="pizza.jpg" alt="Pizza" width="200" id="Pizza">
+      </div>
+      <div class="form-group">
+        <label for="foodImage">Cheese Burger: 140 </label><br>
+        <img src="Bu.jpg" alt="Burger" width="200" id="foodImage">
+      </div>
+      <div class="form-group">
+        <label for="foodImage">Salad: price: 66 </label><br>
+        <img src="salad.jpg" alt="Salad" width="200" id="foodImage">
+      </div>
+
+
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
